@@ -1,5 +1,7 @@
 # Cloud Computing
 
+![](diagram.png)
+
 Specs of New Computer/Laptop/VM machine
 - RAM
 - OS - ubuntu16.04 - vagrant box online
@@ -12,4 +14,5 @@ Specs of New Computer/Laptop/VM machine
 Uses of buying computer -> Office use, Gaming, Web browsing
 
 - SCP Command (used to migrate from lh to gh)
-- 
+
+
