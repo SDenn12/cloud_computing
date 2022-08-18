@@ -11,3 +11,5 @@ Specs of New Computer/Laptop/VM machine
 
 Uses of buying computer -> Office use, Gaming, Web browsing
 
+- SCP Command (used to migrate from lh to gh)
+- 
