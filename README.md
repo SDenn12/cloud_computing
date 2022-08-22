@@ -303,3 +303,6 @@ sudo systemctl enable mongod
 2. Boot DB instance changing the security group to the APP IP.
 3. SSH into APP instance, change DB_HOST to incorporate the new DB IP, complete the `node seed.js` in the seeds directory and then `npm start` in the app.js folder.
 4. The app should now be working.
+
+
+![](image/ami_diagram.png)
