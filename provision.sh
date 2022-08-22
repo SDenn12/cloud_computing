@@ -11,6 +11,7 @@ sudo systemctl start nginx
 sudo apt-get purge nodejs npm
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
+sudo apt-get install npm
 
 # pm2 install
 sudo npm install pm2 -g
