@@ -291,7 +291,7 @@ sudo systemctl restart mongod
 sudo systemctl enable mongod
 ```
 3. Now SSH into the DB machine and set `bind ip : 0.0.0.0` in the `/etc/mongod.conf` file. After this run `sudo systemctl restart mongod` to update your configuration.
-4. Now set the environment variable by using `echo "DB_HOST=mongodb://192.168.10.150:27017/posts" | sudo tee -a /etc/environment`
+4. Now set the environment variable by using `echo "DB_HOST=mongodb://DatabaseIPv4Address:27017/posts" | sudo tee -a /etc/environment`
 `
 5. Now SSH into the APP machine and configure the reverse proxy in the `/etc/nginx/sites-available/default` as done before in the manual example.
 6. Inside the app machine locate the folder with app.js and run `npm install` then enter the `/seeds` directory and run `node seed.js`.
