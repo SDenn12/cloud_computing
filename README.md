@@ -329,4 +329,41 @@ s3 = boto3.client('s3')
 
 s3.create_bucket(Bucket='eng122-samuel-pybucket', CreateBucketConfiguration={'LocationConstraint':'eu-west-1'})
 
+s3.upload_file('test.txt','eng122-samuel-pybucket','python/test.txt')
 ```
+
+![image](https://user-images.githubusercontent.com/110126036/186197362-8c1306ac-9ecf-40be-8e5c-2185ce5ea8cd.png)
+
+Now delete the test.txt file to test the download and delete capabilities using `sudo rm test.txt`
+
+```python
+import boto3
+
+s3 = boto3.client('s3')
+
+s3.download_file('eng122-samuel-pybucket', 'python/test.txt','downloaded_file.txt')
+```
+
+![image](https://user-images.githubusercontent.com/110126036/186199285-8a04a23a-210f-4a46-9656-a58ba09ad522.png)
+
+to delete the file
+
+```python
+import boto3
+
+s3 = boto3.client('s3')
+
+s3.delete_object(Bucket='eng122-samuel-pybucket', Key='python/test.txt')
+```
+
+![image](https://user-images.githubusercontent.com/110126036/186201079-61aba8ef-23e3-4849-8160-91c3357d34da.png)
+
+to delete the bucket
+
+```python
+import boto3
+
+s3 = boto3.client('s3')
+```
+
+
