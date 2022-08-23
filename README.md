@@ -246,7 +246,7 @@ You can edit at a later date using:
 
 ### What is an AMI?
 
-### What are the benefits of an AMI?
+An AMI provides the details needed for an instance to be launched in AWS. They are used to save money as a snapshot is taken of an active instance and then saved. This means you can now terminate the current instance. It is not free however is much cheaper than having a running/stopped AWS instance.
 
 ## Implementing AMI into Node App
 
