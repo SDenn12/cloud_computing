@@ -306,3 +306,16 @@ sudo systemctl enable mongod
 
 
 ![](image/ami_diagram.png)
+
+## Disaster Recovery
+
+![image](https://user-images.githubusercontent.com/110126036/186161316-209766dd-f597-4f8c-9241-eab357d0d092.png)
+
+In case of an expected disaster the AMI should be backed up.
+
+Multiple methods:
+
+- Multi AZs (azs euw-1a,1b,1c)
+- Multi Region (Ireland, London)
+- Multi Cloud Deployment (Azure/GCP)
+- Hybrid Cloud (localhost & public cloud)
