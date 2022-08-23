@@ -311,7 +311,7 @@ sudo systemctl enable mongod
 
 ![image](https://user-images.githubusercontent.com/110126036/186161316-209766dd-f597-4f8c-9241-eab357d0d092.png)
 
-In case of an expected disaster the AMI should be backed up.
+In case of an unexpected disaster the AMI should be backed up.
 
 Multiple methods:
 
