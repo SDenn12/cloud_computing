@@ -319,3 +319,14 @@ Multiple methods:
 - Multi Region (Ireland, London)
 - Multi Cloud Deployment (Azure/GCP)
 - Hybrid Cloud (localhost & public cloud)
+
+### Boto 3
+
+```python
+import boto3
+
+s3 = boto3.client('s3')
+
+s3.create_bucket(Bucket='eng122-samuel-pybucket', CreateBucketConfiguration={'LocationConstraint':'eu-west-1'})
+
+```
