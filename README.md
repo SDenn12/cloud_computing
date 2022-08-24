@@ -443,3 +443,12 @@ Benefits:
 
 ![image](https://user-images.githubusercontent.com/110126036/186434513-91cc9990-b70c-4d96-b0fe-a7bafca8cc43.png)
 
+### Setting up an Alarm in CloudWatch (for CPU Utilization)
+
+![image](https://user-images.githubusercontent.com/110126036/186434905-afc03328-9e84-42a6-a287-f25c7370f95b.png)
+
+![image](https://user-images.githubusercontent.com/110126036/186434979-d8ca0fe5-7a1a-472b-a5ce-7ce7a4c6205d.png)
+
+![image](https://user-images.githubusercontent.com/110126036/186435070-63c51700-db79-40a2-9e5b-54872ccd4ad3.png)
+
+
