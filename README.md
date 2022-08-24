@@ -429,10 +429,16 @@ CloudWatch is a monitoring service for AWS cloud resources and the applications 
 
 ### What is SNS?
 
-Simple Notification Service is a filly managed messaging service for both application to application and application to person communication.
+Simple Notification Service is a fully managed messaging service for both application to application and application to person communication. You can get the A2P nofitications via SMS, mobile push and email. 
 
 ### What is SQS?
 
 Simple Queue Service allows you to decouple and scale microservices, distributed systems and serverless applications.
+
+Benefits: 
+
+- Eliminate administrative overhead
+- Scale elastically
+- Cost effective
 
 ![image](https://user-images.githubusercontent.com/110126036/186396691-6d82dc0d-81ac-421e-bce7-652edf8556b9.png)
