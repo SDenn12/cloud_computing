@@ -392,4 +392,47 @@ s3 = boto3.client('s3')
 s3.delete_bucket(Bucket='eng122-samuel-pybucket')
 ```
 
+## Monitoring and Alert Management
 
+### What is Monitoring?
+
+Monitoring is a method of reviewing, observing and managing the operational workflow in a cloud-based IT infrastructure. They are used to confirm the availability of the website and can implicitly be used to scale applications to current demand (through the use of SQS).
+
+Therefore the main benefits are:
+
+- Scalibility 
+- Availibility
+
+which in turn can save money (with 100% uptime) and create a better consumer experience.
+
+### What are the 4 Golden Signals of Monitoring
+
+#### Latency 
+
+The time it takes to service a request. It is important to distinguish between latency of successful and failed requests as this could skew data.
+
+#### Traffic
+
+A measure of how much demand is being placed on your system. Measurement is usually http requests per second.
+
+#### Errors
+
+The rate of requests that fail, either http 500s or http200s that coupled the wrong content.
+
+#### Saturation
+
+'How full your service is'. A measure of your system fraction, emphasizing the resources which are most constrained.
+
+### What is CloudWatch?
+
+CloudWatch is a monitoring service for AWS cloud resources and the applications you run on Amazon Web Services. You can use Amazon CloudWatch to collect and track metrics, collect and monitor log files, set alarms, and automatically react to changes in your Amazon Web Services resources.
+
+### What is SNS?
+
+Simple Notification Service is a filly managed messaging service for both application to application and application to person communication.
+
+### What is SQS?
+
+Simple Queue Service allows you to decouple and scale microservices, distributed systems and serverless applications.
+
+![image](https://user-images.githubusercontent.com/110126036/186396691-6d82dc0d-81ac-421e-bce7-652edf8556b9.png)
