@@ -311,7 +311,7 @@ sudo systemctl enable mongod
 
 ![image](https://user-images.githubusercontent.com/110126036/186161316-209766dd-f597-4f8c-9241-eab357d0d092.png)
 
-In case of an unexpected disaster the AMI should be backed up.
+In the case of an unexpected disaster the program's data should be backed up.
 
 Multiple methods:
 
@@ -319,6 +319,8 @@ Multiple methods:
 - Multi Region (Ireland, London)
 - Multi Cloud Deployment (Azure/GCP)
 - Hybrid Cloud (localhost & public cloud)
+
+The more layers of backup you have the more the cost.
 
 ### S3 Buckets
 
