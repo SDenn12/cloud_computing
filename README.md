@@ -441,4 +441,5 @@ Benefits:
 - Scale elastically
 - Cost effective
 
-![image](https://user-images.githubusercontent.com/110126036/186396691-6d82dc0d-81ac-421e-bce7-652edf8556b9.png)
+![image](https://user-images.githubusercontent.com/110126036/186434513-91cc9990-b70c-4d96-b0fe-a7bafca8cc43.png)
+
