@@ -322,7 +322,7 @@ Multiple methods:
 
 The more layers of backup you have the more the cost.
 
-### S3 Buckets
+### S3 Buckets (simple Storage Service)
 
 S3 Buckets are global and are therefore globally available. This means that if 1 AZ goes down you can download your backed-up files onto a different AZ.
 
