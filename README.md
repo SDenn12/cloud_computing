@@ -394,6 +394,8 @@ s3.delete_bucket(Bucket='eng122-samuel-pybucket')
 
 ## Monitoring and Alert Management
 
+![image](https://user-images.githubusercontent.com/110126036/186460243-90ae749f-7284-4e2a-a2b5-1d40f242ec91.png)
+
 ### What is Monitoring?
 
 Monitoring is a method of reviewing, observing and managing the operational workflow in a cloud-based IT infrastructure. They are used to confirm the availability of the website and can implicitly be used to scale applications to current demand (through the use of SQS).
@@ -440,8 +442,6 @@ Benefits:
 - Eliminate administrative overhead
 - Scale elastically
 - Cost effective
-
-![image](https://user-images.githubusercontent.com/110126036/186434513-91cc9990-b70c-4d96-b0fe-a7bafca8cc43.png)
 
 ### Setting up an Alarm in CloudWatch (for CPU Utilization)
 
