@@ -322,6 +322,8 @@ Multiple methods:
 
 ### S3 Buckets
 
+S3 Buckets are global and are therefore globally available. This means that if 1 AZ goes down you can download your backed-up files onto a different AZ.
+
 S3 require dependencies such as python3.7, pip3, awscli and the configuration of aws access and secret keys.
 
 AWS KEYS MUST NOT BE SHARED WITH ANYONE!
