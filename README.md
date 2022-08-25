@@ -460,6 +460,12 @@ Load balancers balance the traffic between multiple instances, there are differe
 
 Attached to load balancers, they create and delete new instances as needed (according to metrics which you wish to monitor).
 
+Simple Policy - Increase or decrease the current capacity of the group based on a single scaling adjustment.
+
+Step Policy - Increase or decrease the current capacity of the group based on a set of scaling adjustments, known as step adjustments, that vary based on the size of the alarm breach.
+
+Target tracking - Increase or decrease the current capacity of the group based on a target value for a specific metric.
+
 ### Route 53 DNS
 
 Reroutes all of the traffic from different instances to the same IP address.
