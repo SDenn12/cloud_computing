@@ -402,8 +402,8 @@ Monitoring is a method of reviewing, observing and managing the operational work
 
 Therefore the main benefits are:
 
-- Scalibility 
-- Availibility
+- Scalability 
+- Availability
 
 which in turn can save money (with 100% uptime) and create a better consumer experience.
 
