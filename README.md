@@ -394,8 +394,6 @@ s3.delete_bucket(Bucket='eng122-samuel-pybucket')
 
 ## Monitoring and Alert Management
 
-![image](https://user-images.githubusercontent.com/110126036/186460243-90ae749f-7284-4e2a-a2b5-1d40f242ec91.png)
-
 ### What is Monitoring?
 
 Monitoring is a method of reviewing, observing and managing the operational workflow in a cloud-based IT infrastructure. They are used to confirm the availability of the website and can implicitly be used to scale applications to current demand (through the use of SQS).
@@ -469,3 +467,6 @@ Target tracking - Increase or decrease the current capacity of the group based o
 ### Route 53 DNS
 
 Reroutes all of the traffic from different instances to the same IP address.
+
+![image](https://user-images.githubusercontent.com/110126036/186627173-3763c17f-43a9-4a63-a890-5d34d5e2cd58.png)
+
