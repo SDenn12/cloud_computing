@@ -452,7 +452,11 @@ Benefits:
 
 ### Load Balancer
 
-Load balancers balance the traffic between multiple instances, there are different types of load balancers which are: Application Load Balancers, Network Load Balancers, and Classic Load Balancer.
+Load balancers balance the traffic between multiple instances, there are different types of load balancers which are: Application Load Balancers, Network Load Balancers.
+
+Network Load Balancers simply forwards requests. It cannot assure availability of the application as it cannot tell the difference between different applications. This is because it works at the Network Level.
+
+The Application Load balancers are able to take much more contextual information however this comes at the cost of speed.
 
 ### Autoscaling Group
 
