@@ -452,3 +452,14 @@ Benefits:
 ![image](https://user-images.githubusercontent.com/110126036/186435070-63c51700-db79-40a2-9e5b-54872ccd4ad3.png)
 
 
+### Load Balancer
+
+Load balancers balance the traffic between multiple instances, there are different types of load balancers which are: Application Load Balancers, Network Load Balancers, and Classic Load Balancer.
+
+### Autoscaling Group
+
+Attached to load balancers, they create and delete new instances as needed (according to metrics which you wish to monitor).
+
+### Route 53 DNS
+
+Reroutes all of the traffic from different instances to the same IP address.
