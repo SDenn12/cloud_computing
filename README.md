@@ -474,3 +474,26 @@ Reroutes all of the traffic from different instances to the same IP address.
 
 ![image](https://user-images.githubusercontent.com/110126036/186627173-3763c17f-43a9-4a63-a890-5d34d5e2cd58.png)
 
+```
+[Unit]
+
+Description=Run the app
+
+
+
+[Service]
+
+User=ubuntu
+
+WorkingDirectory=/home/ubuntu/app
+
+ExecStart=/usr/bin/npm start
+
+Restart=always
+
+
+
+[Install]
+
+WantedBy=multi-user.target
+```
