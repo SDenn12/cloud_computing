@@ -480,27 +480,32 @@ Reroutes all of the traffic from different instances to the same IP address.
 ### Make sure that 1 app is fully functional
 - Create as before
 - Make a service which will start the app
+
+Create a provisioning script to run the app.
+
+```bash
+#!/bin/bash
+
+cd /home/ubuntu/cloud_computing/app
+
+npm start
+```
+
+Create a service which will run the script.
+
 ```
 [Unit]
 
 Description=Run the app
-
-
+After=default.target
 
 [Service]
 
-User=ubuntu
-
-WorkingDirectory=/home/ubuntu/app
-
-ExecStart=/usr/bin/npm start
-
-Restart=always
-
-
+ExecStart=/bin/bash /home/ubuntu/cloud_computing/serviceapp.sh
 
 [Install]
 
-WantedBy=multi-user.target
+WantedBy=default.target
+
 ```
 - Enable and Restart the service using sudo systemctl.
