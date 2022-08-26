@@ -474,6 +474,12 @@ Reroutes all of the traffic from different instances to the same IP address.
 
 ![image](https://user-images.githubusercontent.com/110126036/186627173-3763c17f-43a9-4a63-a890-5d34d5e2cd58.png)
 
+
+## Make an ASG for APP Group
+
+### Make sure that 1 app is fully functional
+- Create as before
+- Make a service which will start the app
 ```
 [Unit]
 
@@ -497,3 +503,4 @@ Restart=always
 
 WantedBy=multi-user.target
 ```
+- Enable and Restart the service using sudo systemctl.
