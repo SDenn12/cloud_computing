@@ -477,7 +477,7 @@ Reroutes all of the traffic from different instances to the same IP address.
 
 ## Make an ASG for APP Group
 
-### Make sure that 1 app is fully functional
+### Make sure that App is fully functional and Save as an AMI
 - Create as before
 - Make a service which will start the app
 
@@ -509,3 +509,25 @@ WantedBy=default.target
 
 ```
 - Enable and Restart the service using sudo systemctl.
+
+### Create a Launch Template with User data
+
+User data:
+```
+#!/bin/bash
+
+sudo systemctl start nodeapp.service
+
+sudo systemctl enable nodeapp.service
+
+sudo systemctl restart nodeapp.service
+```
+
+### Create AutoScaling Group
+
+![image](https://user-images.githubusercontent.com/110126036/186872834-8522878e-49e2-4652-aa5c-62865687a19d.png)
+![image](https://user-images.githubusercontent.com/110126036/186872937-3d16125a-ea69-4b48-82e1-9f3ff26bccc9.png)
+![image](https://user-images.githubusercontent.com/110126036/186873130-a24be00e-8c8e-4160-9d7b-de4360fc74a7.png)
+![image](https://user-images.githubusercontent.com/110126036/186873367-13f9e711-3198-4b41-97a4-5fac6ead7370.png)
+![image](https://user-images.githubusercontent.com/110126036/186873462-432e1be2-5ccc-4528-ad7d-77ef08e40866.png)
+![image](https://user-images.githubusercontent.com/110126036/186873601-a5b6141d-3ce3-401a-aba2-a6662dee9442.png)
