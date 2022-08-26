@@ -25,7 +25,8 @@ Reroutes all of the traffic from different instances to the same IP address.
 
 
 ## Make an ASG for APP Group
-![image](https://user-images.githubusercontent.com/110126036/186874820-2b37b49a-b50d-49ff-9eea-efeec17ab2f8.png)
+
+![image](https://user-images.githubusercontent.com/110126036/186890683-642d3f82-8fe5-4aed-a633-325bbf239644.png)
 
 ### Make sure that App is fully functional and Save as an AMI
 - Create as before
@@ -83,4 +84,3 @@ sudo systemctl restart nodeapp.service
 ![image](https://user-images.githubusercontent.com/110126036/186873601-a5b6141d-3ce3-401a-aba2-a6662dee9442.png)
 
 
-![image](https://user-images.githubusercontent.com/110126036/186890683-642d3f82-8fe5-4aed-a633-325bbf239644.png)
