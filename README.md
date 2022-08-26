@@ -476,6 +476,7 @@ Reroutes all of the traffic from different instances to the same IP address.
 
 
 ## Make an ASG for APP Group
+![image](https://user-images.githubusercontent.com/110126036/186874820-2b37b49a-b50d-49ff-9eea-efeec17ab2f8.png)
 
 ### Make sure that App is fully functional and Save as an AMI
 - Create as before
